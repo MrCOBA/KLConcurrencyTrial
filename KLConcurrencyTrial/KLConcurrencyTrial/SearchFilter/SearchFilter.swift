@@ -33,6 +33,7 @@ final class SearchQueryResultsProvider: ObservableObject {
     // MARK: - Private Methods
     
     private func getQueryList() async throws -> [SearchQueryResultObject] {
+        // Here may be some custom logic of getiing result 🤔
         return []
     }
     

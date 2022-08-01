@@ -13,6 +13,7 @@ class ViewController: UIViewController {
         productsProvider = ProductsProviderImpl(requester: productsRequester)
     }
 
+    // Provider Testing 😑
     @MainActor
     @IBAction func loadButtonTapped(_ sender: Any) {
         Task {

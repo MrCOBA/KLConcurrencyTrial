@@ -1,6 +1,7 @@
 import SwiftUI
 import OSLog
 
+// SwiftUI UI because i am so lazy, sorry 👉👈
 // MARK: - SearchView
 
 struct SearchFilterView: View {
